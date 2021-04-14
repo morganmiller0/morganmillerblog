@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2021-04-13-my-new-post/",
+    "title": "My First Post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Morgan Miller",
+        "url": "https://www.google.com"
+      }
+    ],
+    "date": "2021-04-13",
+    "categories": [],
+    "contents": "\nThis is my first post! Yay!\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n head(mtcars)\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-13T20:40:43-04:00",
+    "input_file": "my-new-post.utf8.md"
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Morgan's Website",
+    "description": "Welcome to our new blog, Morgan's Website. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Morgan Miller",
+        "url": "https://www.google.com"
+      }
+    ],
+    "date": "2021-04-13",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-13T20:39:25-04:00",
+    "input_file": "welcome.utf8.md"
+  }
+]

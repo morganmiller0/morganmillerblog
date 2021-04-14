@@ -1,0 +1,9 @@
+---
+title: "About Morgan"
+description: |
+  I am a hard-working female based out of Washington, DC.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
