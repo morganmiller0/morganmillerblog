@@ -5,7 +5,7 @@ description: |
   reading what we have to say!
 author:
   - name: Morgan Miller 
-    url: https://www.google.com
+    url: https://example.com/norajones
     affiliation: Spacely Sprockets
     affiliation_url: https://example.com/spacelysprokets
 date: 04-13-2021
