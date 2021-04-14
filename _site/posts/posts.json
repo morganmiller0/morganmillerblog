@@ -14,7 +14,7 @@
     "contents": "\nThis is my first post! Yay!\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n head(mtcars)\n\n\n\n",
     "preview": {},
     "last_modified": "2021-04-13T20:40:43-04:00",
-    "input_file": "my-new-post.utf8.md"
+    "input_file": {}
   },
   {
     "path": "posts/welcome/",
@@ -31,6 +31,6 @@
     "contents": "\n\n\n\n",
     "preview": {},
     "last_modified": "2021-04-13T20:39:25-04:00",
-    "input_file": "welcome.utf8.md"
+    "input_file": {}
   }
 ]
