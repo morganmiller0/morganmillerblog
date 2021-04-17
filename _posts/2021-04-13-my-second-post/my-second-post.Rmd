@@ -1,7 +1,7 @@
 ---
-title: "My Second Post"
+title: "An Analysis On Financial Complaints"
 description: |
-  A short description of the post.
+  Financial complaints broken down by the top states.
 author:
   - name: Morgan Miller
     url: https://www.google.com
@@ -16,8 +16,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+Below find my analysis on financial complaints broken down by the top 5 states.
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+I began this analysis by downloading the data of financial complaints 
 
 
