@@ -25,4 +25,21 @@ I began with a layout of all visits by each candidate in the 2020 primaries.
 
 ```{r}
 
+head(events)
+
 ```
+
+I then sorted the months by the last name "Harris" using the code below. In additon, I gave the count command to tally up all visits during that month (shown under the "n" column in "kamala_months").
+
+```{r}
+
+Kamala_months <- events_month%>%
+  filter(cand_lastname == "Harris")%>%
+  count(month = month(date))
+
+Kamala_months
+
+
+```
+
+Finally, I created a bar graph which illustrated the month and number of time visited by Harris during the 2020 presidential campaign trail.
