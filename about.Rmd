@@ -10,6 +10,10 @@ description: |
   ~Morgan Miller
 ---
 
+![](images/IMG_1318.JPG){width="192"}
+
+---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
