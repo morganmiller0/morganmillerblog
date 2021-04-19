@@ -17,9 +17,11 @@ library(tidyverse)
 library(lubridate)
 library(plotly)
 
+events <- readRDS("events_saved.rds")
+
 ```
 
-Below find my analysis on the visits per month by Kamala Harris on the presidential campaign trail in 2020. 
+Below find my analysis on the visits per month by Kamala Harris on the presidential campaign trail in 2020.
 
 I began with a layout of all visits by each candidate in the 2020 primaries.
 
@@ -29,9 +31,19 @@ head(events)
 
 ```
 
-I then sorted the months by the last name "Harris" using the code below. In additon, I gave the count command to tally up all visits during that month (shown under the "n" column in "kamala_months").
+I then sorted the months by the last name "Harris" using the code below. In additon, I gave the count command to tally up all visits during that month (shown under the "n" column in "kamala_months"). I used the code:
+
+events_month <- events%>%
+  mutate(month(date))
+
+Kamala_months <- events_month%>%
+  filter(cand_lastname == "Harris")%>%
+  count(month = month(date))
 
 ```{r}
+
+events_month <- events%>%
+  mutate(month(date))
 
 Kamala_months <- events_month%>%
   filter(cand_lastname == "Harris")%>%
@@ -43,3 +55,17 @@ Kamala_months
 ```
 
 Finally, I created a bar graph which illustrated the month and number of time visited by Harris during the 2020 presidential campaign trail.
+
+```{r}
+
+Harris_Chart <- Kamala_months%>%
+  plot_ly(x = ~month,
+          y = ~n, 
+          type = "bar")
+
+harris_graph <- Harris_Chart%>%
+  layout(title = "Visits for Harris per Month")
+
+harris_graph
+
+```

@@ -14,10 +14,65 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+library(flexdashboard)
+library(tidyverse)
+library(lubridate)
+library(janitor)
+library(glue)
+library(plotly)
+library(DT)
+library(kableExtra)
+library(htmlwidgets)
+library(htmltools)
+library(readxl)
+
+complaints <- readRDS("complaints.rds")
+
+
 ```
 
 Below find my analysis on financial complaints broken down by the top 5 states.
 
-I began this analysis by downloading the data of financial complaints 
+I began this analysis by downloading the data of financial complaints and selecting the data I wanted to analyze. I used the code:
 
+topic <- select(complaints, sub_product)
+
+topics_summed <- count(topic, sub_product)
+
+```{r}
+
+topic <- select(complaints, sub_product)
+
+topics_summed <- count(topic, sub_product)
+
+topics_summed
+```
+I then sorted the complaints by states and counted them up using the following code 
+
+state_complaints <- select(complaints, c(state, product))
+
+state_summed <- count(state_complaints, state)
+
+```{r}
+state_complaints <- select(complaints, c(state, product))
+
+state_summed <- count(state_complaints, state)
+
+state_summed
+
+```
+
+Finally, I placed the data in a plotly bar graph code and created the following bar graph with the top 5 states with the most financial complaints according to my data.
+
+```{r}
+graph1 <- plot_ly(
+  x = c("FL", "CA", "TX", "NY", "GA"),
+  y = c(50449, 46721, 44504, 25445, 23881),
+  type = "bar",
+  color = "orange"
+)
+
+graph1
+```
 

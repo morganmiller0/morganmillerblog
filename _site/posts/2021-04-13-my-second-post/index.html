@@ -117,7 +117,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"NULL"}
+  {"type":"character","attributes":{},"value":["my-second-post_files/anchor-4.2.2/anchor.min.js","my-second-post_files/bowser-1.9.3/bowser.min.js","my-second-post_files/crosstalk-1.1.1/css/crosstalk.css","my-second-post_files/crosstalk-1.1.1/js/crosstalk.js","my-second-post_files/crosstalk-1.1.1/js/crosstalk.js.map","my-second-post_files/crosstalk-1.1.1/js/crosstalk.min.js","my-second-post_files/crosstalk-1.1.1/js/crosstalk.min.js.map","my-second-post_files/distill-2.2.21/template.v2.js","my-second-post_files/header-attrs-2.7/header-attrs.js","my-second-post_files/htmlwidgets-1.5.3/htmlwidgets.js","my-second-post_files/jquery-1.11.3/jquery.min.js","my-second-post_files/jquery-3.5.1/jquery-AUTHORS.txt","my-second-post_files/jquery-3.5.1/jquery.js","my-second-post_files/jquery-3.5.1/jquery.min.js","my-second-post_files/jquery-3.5.1/jquery.min.map","my-second-post_files/plotly-binding-4.9.3/plotly.js","my-second-post_files/plotly-htmlwidgets-css-1.57.1/plotly-htmlwidgets.css","my-second-post_files/plotly-main-1.57.1/plotly-latest.min.js","my-second-post_files/popper-2.6.0/popper.min.js","my-second-post_files/tippy-6.2.7/tippy-bundle.umd.min.js","my-second-post_files/tippy-6.2.7/tippy-light-border.css","my-second-post_files/tippy-6.2.7/tippy.css","my-second-post_files/tippy-6.2.7/tippy.umd.min.js","my-second-post_files/typedarray-0.1/typedarray.min.js","my-second-post_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2042,7 +2042,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!--/radix_placeholder_distill-->
   <script src="../../site_libs/header-attrs-2.7/header-attrs.js"></script>
-  <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+  <script src="../../site_libs/plotly-binding-4.9.3/plotly.js"></script>
+  <script src="../../site_libs/typedarray-0.1/typedarray.min.js"></script>
+  <script src="../../site_libs/jquery-3.5.1/jquery.min.js"></script>
+  <link href="../../site_libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+  <script src="../../site_libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+  <link href="../../site_libs/plotly-htmlwidgets-css-1.57.1/plotly-htmlwidgets.css" rel="stylesheet" />
+  <script src="../../site_libs/plotly-main-1.57.1/plotly-latest.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2098,8 +2105,130 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <div class="d-article">
-<p>I began this analysis by downloading the data of financial complaints</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>Below find my analysis on financial complaints broken down by the top 5 states.</p>
+<p>I began this analysis by downloading the data of financial complaints and selecting the data I wanted to analyze.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code>                                  sub_product      n
+1                                   Auto debt   1656
+2                 CD (Certificate of Deposit)    503
+3                       Check cashing service    101
+4                            Checking account  16513
+5                  Conventional home mortgage  13600
+6                            Credit card debt  11647
+7                      Credit repair services    405
+8                            Credit reporting 253946
+9                             Debt settlement     95
+10               Domestic (US) money transfer   2105
+11                  Federal student loan debt    346
+12             Federal student loan servicing   2204
+13                               FHA mortgage   3044
+14                  Foreign currency exchange     63
+15 General-purpose credit card or charge card  20329
+16               General-purpose prepaid card   1388
+17                                  Gift card     74
+18                    Government benefit card   3357
+19 Home equity loan or line of credit (HELOC)   1158
+20                              I do not know  11228
+21                           Installment loan   1589
+22               International money transfer   1064
+23                                      Lease   1030
+24                                       Loan   5026
+25                               Medical debt   6733
+26                   Mobile or digital wallet   2894
+27                                Money order    106
+28                              Mortgage debt    725
+29           Other banking product or service   2171
+30                                 Other debt  12072
+31             Other personal consumer report   1397
+32                     Other type of mortgage   1345
+33                                  Pawn loan     11
+34                                Payday loan    776
+35                           Payday loan debt   1262
+36                               Payroll card    120
+37                    Personal line of credit    864
+38                       Private student loan   1156
+39                  Private student loan debt    419
+40                  Refund anticipation check     84
+41                           Reverse mortgage    190
+42                            Savings account   1479
+43                          Store credit card   3853
+44                       Student prepaid card      7
+45                                 Title loan    322
+46        Traveler&#39;s check or cashier&#39;s check     82
+47                                VA mortgage   1603
+48                           Virtual currency    908</code></pre>
+</div>
+<p>I then sorted the complaints by states and counted them up using the following code</p>
+<p>state_complaints &lt;- select(complaints, c(state, product))</p>
+<p>state_summed &lt;- count(state_complaints, state)</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre><code>                                  state     n
+1                                        9934
+2                                    AA     9
+3                                    AE    84
+4                                    AK   358
+5                                    AL  9840
+6                                    AP    39
+7                                    AR  6961
+8                                    AZ  5777
+9                                    CA 46721
+10                                   CO  3855
+11                                   CT  2850
+12                                   DC  1483
+13                                   DE  1779
+14                                   FL 50449
+15                                   GA 23881
+16                                   GU    12
+17                                   HI   761
+18                                   IA   882
+19                                   ID   658
+20                                   IL 12732
+21                                   IN  3223
+22                                   KS  1055
+23                                   KY  1724
+24                                   LA  6370
+25                                   MA  6373
+26                                   MD  8491
+27                                   ME   435
+28                                   MI  6727
+29                                   MN  2774
+30                                   MO  4381
+31                                   MS  3047
+32                                   MT   321
+33                                   NC 10878
+34                                   ND   194
+35                                   NE   570
+36                                   NH   539
+37                                   NJ 12643
+38                                   NM   850
+39                                   NV  5368
+40                                   NY 25445
+41                                   OH  9082
+42                                   OK  1773
+43                                   OR  1860
+44                                   PA 18380
+45                                   PR  1128
+46                                   RI   700
+47                                   SC  6692
+48                                   SD   195
+49                                   TN 10095
+50                                   TX 44504
+51 UNITED STATES MINOR OUTLYING ISLANDS    45
+52                                   UT  2453
+53                                   VA  8057
+54                                   VI    72
+55                                   VT   174
+56                                   WA  4399
+57                                   WI  2306
+58                                   WV   458
+59                                   WY   204</code></pre>
+</div>
+<p>Finally, I placed the data in a plotly bar graph code and created the following bar graph</p>
+<div class="layout-chunk" data-layout="l-body">
+<div id="htmlwidget-a60bc26efd141a3729bb" style="width:624px;height:384px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a60bc26efd141a3729bb">{"x":{"visdat":{"1599573887aba":["function () ","plotlyVisDat"]},"cur_data":"1599573887aba","attrs":{"1599573887aba":{"x":["FL","CA","TX","NY","GA"],"y":[50449,46721,44504,25445,23881],"color":"orange","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"xaxis":{"domain":[0,1],"automargin":true,"title":[],"type":"category","categoryorder":"array","categoryarray":["CA","FL","GA","NY","TX"]},"yaxis":{"domain":[0,1],"automargin":true,"title":[]},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["FL","CA","TX","NY","GA"],"y":[50449,46721,44504,25445,23881],"type":"bar","name":"orange","marker":{"color":"rgba(252,141,98,1)","line":{"color":"rgba(252,141,98,1)"}},"textfont":{"color":"rgba(252,141,98,1)"},"error_y":{"color":"rgba(252,141,98,1)"},"error_x":{"color":"rgba(252,141,98,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
