@@ -1,12 +1,22 @@
 name: "morganmillerblog"
-title: "Morgan's Website"
+title: "Morgan Miller"
 description: |
   Morgan's Website
 output_dir: "_site"
+base_url: https://morganmiller.netlify.app
 navbar:
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Data Stories"
+      menu:
+        - test: "Harris Campign Visits"
+          href:
+        - text: "Complaints by State"
+          href: 
 output: distill::distill_article
+collections:
+  posts:
+    share: [twitter, linkedin, facebook]

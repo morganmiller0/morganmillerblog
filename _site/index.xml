@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Morgan's Website</title>
+    <link>https://morganmiller.netlify.app</link>
+    <atom:link href="https://morganmiller.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Morgan's Website
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>An Analysis On Campaign Events By Morgan Miller</title>
+      <dc:creator>Morgan Miller</dc:creator>
+      <link>https://morganmiller.netlify.app/posts/2021-04-13-my-new-post</link>
+      <description>Kamala Harris visits on the 2020 campaign trail.</description>
+      <category>politics</category>
+      <category>campaigns</category>
+      <category>travel</category>
+      <category>charts</category>
+      <guid>https://morganmiller.netlify.app/posts/2021-04-13-my-new-post</guid>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Analysis On Financial Complaints</title>
+      <dc:creator>Morgan Miller</dc:creator>
+      <link>https://morganmiller.netlify.app/posts/2021-04-13-my-second-post</link>
+      <description>Financial complaints broken down by the top states.</description>
+      <category>complaints</category>
+      <category>states</category>
+      <category>accountability</category>
+      <category>charts</category>
+      <guid>https://morganmiller.netlify.app/posts/2021-04-13-my-second-post</guid>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Morgan Miller's Website</title>
+      <dc:creator>Morgan Miller</dc:creator>
+      <link>https://morganmiller.netlify.app/posts/welcome</link>
+      <description>Welcome to my blog. Please explore my about page to learn more about me, and get to know my past analysis projects.</description>
+      <guid>https://morganmiller.netlify.app/posts/welcome</guid>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

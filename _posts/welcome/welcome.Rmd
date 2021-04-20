@@ -1,11 +1,11 @@
 ---
-title: "Welcome to Morgan's Website"
+title: "Welcome to Morgan Miller's Website"
 description: |
   Welcome to my blog. Please explore my about page to learn more about me, and get to know my past analysis projects.
 author:
   - name: Morgan Miller 
     url: https://example.com/norajones
-    affiliation: Spacely Sprockets
+    affiliation: The George Washington University
     affiliation_url: https://example.com/spacelysprokets
 date: 04-13-2021
 output:
