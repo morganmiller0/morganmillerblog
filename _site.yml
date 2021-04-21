@@ -22,6 +22,8 @@ navbar:
           href: https://www.linkedin.com/in/morgan-miller-7b3539199/
         - text: "My Resume"
           href: https://docs.google.com/document/d/1baQL-suOvWKByW07RcSnrX5hyjUR3q3bP-Y7Mkb7_AI/edit?usp=sharing
+        - text: "Writing Sample"
+          href: https://docs.google.com/document/d/1h_46v5pJfZtKFnvacxHkjXJkb7fpV7GpRrq6GQp0Kj0/edit?usp=sharing
 output: distill::distill_article
 collections:
   posts:
