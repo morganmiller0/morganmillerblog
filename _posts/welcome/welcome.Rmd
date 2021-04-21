@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Morgan Miller's Website"
+title: "Morgan Miller"
 description: |
   Welcome to my blog. Please explore my about page to learn more about me, and get to know my past analysis projects.
 author:
