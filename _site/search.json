@@ -6,14 +6,14 @@
       "description": "I am  a Political Science/Spanish major and Journalism/Mass Communications minor at George Washington University (GWU) in DC.\n  \n  My story begins with change. Growing up, I always believed I would become a middle school Spanish and History teacher. This plan was diverted when I saw the inequalities and lack of support for the teacher’s union in my own community. To me, the only way to create the change I thought I needed to make in the education system was through legislation. I promptly devoted myself to the power of communication, analysis, writing, and policy-making.\n  \n  My long-term career goals lie in the ability to implement monumental change through my devotion to my work and passion for helping others. I believe I have been given the resources to succeed in life, and it is now my turn to use those resources to better help others in my community. Throughout my life I have demonstrated my love for helping others through activities such as volunteering as a Spanish teacher intern my senior year of high school. It was here that I first-hand worked with students in the education system. I watched as they navigated the Spanish language and the lessons I taught them weekly. I was forced to see education from another perspective, as an educator. I learned many things during my time as a Spanish intern, but most importantly I learned the ability to be flexible. When things don’t work, that is an opportunity to reevaluate the situation and formulate another way of reaching your goal.\n  \n  Since starting my collegiate career I have had the opportunity to intern for two nonprofit organizations, Ayuda and Fiesta4Hope. Both have allowed me to sharpen my communication and management skills. As the Outreach Coordinator for Fiesta4Hope, I was able to secure about $47,000 in grants for the organization. This grant was originally designated for only U.S. states. However, I knew that Puerto Rico, as a territory of the U.S., deserved to be in that category. I researched aid to Puerto Rico and the disparities which existed, and highlighted these in order to convince the organization that Fiesta4Hope deserved this money. As the Development Intern for Ayuda, I was able to have direct communication with those we assisted and furthered my direct constituent communication skills. It was here that I utilized my empathy. Hearing the story of immigrants and their families was inspiring, and being able to assist in fundraising and spreading awareness on behalf of them was a once in a lifetime experience. I was able to directly help my community in this position and speak with members of the DMV area on how we can all do our best in supporting others.\n  \n  I am very interested in leadership regarding education, food security, and racial disparities in safety. I believe that these align with my drive towards impactful engagement. I am a hard-working, passionate, interpersonal communication focused, female leader, who values work ethic and time management.\n  \n  Please contact me if we can schedule a time to meet and discuss your needs and my impact in person. I know that I would make a great addition to your team while gaining valuable insight. \n~Morgan Miller",
       "author": [],
       "contents": "\n\n\n\n\n",
-      "last_modified": "2021-04-20T20:38:52-04:00"
+      "last_modified": "2021-04-20T20:49:09-04:00"
     },
     {
       "path": "index.html",
       "title": "Morgan's Website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-20T20:38:53-04:00"
+      "last_modified": "2021-04-20T20:49:10-04:00"
     },
     {
       "path": "new-article.html",
@@ -27,7 +27,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-20T20:38:53-04:00"
+      "last_modified": "2021-04-20T20:49:10-04:00"
     },
     {
       "path": "second-article.html",
@@ -41,7 +41,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-20T20:38:54-04:00"
+      "last_modified": "2021-04-20T20:49:11-04:00"
     }
   ],
   "collections": ["posts/posts.json"]
