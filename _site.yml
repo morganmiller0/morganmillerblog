@@ -13,9 +13,9 @@ navbar:
     - text: "Data Stories"
       menu:
         - text: "Harris Campign Visits"
-          href: new-article.html
+          href: posts/2021-04-13-my-new-post/index.html
         - text: "Complaints by State"
-          href: second-article.html
+          href: posts/2021-04-13-my-second-post/index.html
 output: distill::distill_article
 collections:
   posts:
