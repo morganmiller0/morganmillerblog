@@ -13,6 +13,14 @@ output:
     self_contained: false
 ---
 
+![](images/eyJidWNrZXQiOiJ2aXN1YWxzb2NpZXR5LXVwbG9hZHMiLCJrZXkiOiIzNTY5Mi8yYjZlNjRiOS1iZWU2LTQyYzUtYTMxZC0xOGQ1ZGIxYThhN2IiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDB9fX0=.webp)
+
+```{r}
+
+
+
+```
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
