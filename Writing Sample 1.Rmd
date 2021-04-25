@@ -50,6 +50,9 @@ There is no answer for how long virtual education will last. Many educational in
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+
+
 ```
 
 

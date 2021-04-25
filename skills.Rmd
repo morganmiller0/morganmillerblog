@@ -1,0 +1,64 @@
+---
+title: "Skills"
+description: |
+author:
+  - name: Morgan Miller 
+    url: https://example.com/norajones
+    affiliation: The George Washington University
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+[**Skills in Technology**]{.ul}
+
+R Programming
+
+Excel
+
+Microsoft 360
+
+[**Skills in Interpersonal Relations**]{.ul}
+
+Communication
+
+Time-Management
+
+[**Skills in Analytics**]{.ul}
+
+Organization
+
+Writing
+
+Analysis
+
+[**Issues of Interest**]{.ul}
+
+Education
+
+Sustainability
+
+Equality
+
+Black Lives Matter Movement
+
+LGBTQIA+ Community
+
+Gun Reform
+
+[**Areas of Interest**]{.ul}
+
+Policy-making
+
+Communication and Outreach
+
+Organizing
+
+Writing
+
+Reporting

@@ -1,0 +1,44 @@
+---
+title: "Radio Script"
+description: |
+  Radio script written by me in 2021 for George Washington's Television Station.
+author:
+  - name: Morgan Miller
+    url: https://example.com/norajones
+    affiliation: The George Washington University
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Script for 4/21/21 Episode
+
+
+STANDUP
+
+India has surpassed Brazil in COVID-19 cases, placing them as the second-most infected country behind the United States. This comes amid reports from the Center for Disease Control and Prevention that cases of the new B.1.1.7 variant are increasing globally. India claims the increase in COVID-19 cases within their country will not affect their vaccine plan. 
+
+VO1
+
+In the last month, India’s cases have grown exponentially. Averaging around 150,000 cases per week, some countries have begun to implement travel bans. With a population of almost 1.4 billion, India stands as one of the most populated countries. Overpopulation plagues the country and could cause issues of exponential spreading of the virus. India’s increase in COVID-19 cases could create difficulties in slowing the spread of the global pandemic. 
+
+VO2
+Despite being pushed to the third most infected country, Brazil has continued to account for 13,482,023 cases and 353,137 deaths according to the World Health Organization. BBC News reports that last week, for the first time, Brazil had over 4,000 deaths within a 24 hour time span. Countries have begun implementing travel bans on Brazil. Meanwhile, the Brazilian government has yet to place travel restrictions on the country. 
+
+VO3
+
+According to the Center for Disease Control and Prevention, there are currently 5 variants of the COVID-19 virus. These have been reported to spread quicker than the original strain and therefore endanger any progress on stopping the spread of the virus. The variants may have more severe symptoms for the affected. However, experts are currently researching the ability of the new COVID-19 vaccines to create immunity for the variants in addition to the original strain.
+
+STANDUP
+
+Much remains unknown regarding the future of rising cases in India and Brazil amid the new variants of COVID-19. Experts are advising the public to continue taking safety precautions by wearing masks, social distancing, and limiting all travel. 
+
+
+
+
+
+

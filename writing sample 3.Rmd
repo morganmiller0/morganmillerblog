@@ -1,0 +1,47 @@
+---
+title: "An Analysis on Enhanced Interrogation"
+description: |
+  An article written Sophomore year on enhanced interrogation 
+author:
+  - name: Morgan Miller 
+    url: https://example.com/norajones
+    affiliation: The George Washington University
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Waterboarding, the Sleeping Bag Method, and use of falsified documents to gain intelligence. These are just three of many approved enhanced interrogation methods used by the U.S. military. The Executive Director of the American Civil Liberties Union (ACLU) examined the effect of these methods in his quote, "There is no question that U.S. interrogations have resulted in deaths." The deaths at the hands of enhanced interrogation methods beg the question:
+
+How far is too far?
+
+On November 26th, 2003 Major General Abed Hamed Mowhoush of the Iraqi Army died in the U.S. military compound in Baghdad. Mowhoush became unresponsive during enhanced interrogation methods.
+
+Mowhoush had been taken into custody 16 days prior on the grounds of potential collaboration with Taliban in Northern Iraq. Mowhoush was being interrogated to obtain information regarding the Taliban. At the time, approved interrogation methods by Chief Warrant Officer Lewis Welshofer Jr. were being used. 
+
+Waterboarding and the Sleeping Bag Method have both been confirmed methods of enhanced interrogation used by the U.S. military. Mowhoush became unresponsive during the Sleeping Bag Method. This method consists of placing the detainee head first in a sleeping bag, zipping the bag, wrapping an electrical cord around the body, and sitting on the detainee as they are interrogated. A U.S. military physician was called and Mowhoush received CPR, but was pronounced dead. Welshofer said, “I didn't think I killed him.” 
+
+Many political figures, such as John McCain, have spoken out against enhanced interrogation techniques. McCain, a prisoner of war in Vietnam for five and a half years, has called enhanced interrogation torture. He was tortured during his imprisonment in Vietnam, and has been an advocate for human rights since. McCain said, “... The methods we employ to keep our nation safe must be as right and just as the values we aspire to live up to and promote in the world.” 
+In addition, he said,“I opposed waterboarding and similar so-called enhanced interrogation techniques… and I oppose them now.”
+
+McCain, as well as many activist organizations such as Human Rights First, have stood up against these interrogation methods. Human Rights First said, “These techniques constitute torture, or cruel, inhuman or degrading treatment—both illegal under U.S. and international law.” According to the United Nations Human Rights Office of the High Commissioner torture is:
+
+“Any act by which severe pain or suffering, whether physical or mental, is intentionally inflicted on a person for such purposes as obtaining from him or a third person information or a confession, punishing him for an act he or a third person has committed or is suspected of having committed, or intimidating or coercing him or a third person, or for any reason based on discrimination of any kind, when such pain or suffering is inflicted by or at the instigation of or with the consent or acquiescence of a public official or other person acting in an official capacity. It does not include pain or suffering arising only from, inherent in or incidental to lawful sanctions.”
+
+A Senate Intelligence Committee report questioned the results of enhanced interrogation. The report found that enhanced interrogation either found little to no evidence or “fabricated information, resulting in faulty intelligence.” Proving that the interrogation methods are not an effective means of gathering intelligence. McCain stated, “It was not torture… that got us the major leads that ultimately enabled our intelligence community to find Osama bin Laden.” This further demonstrates that the findings of the Senate Intelligence Committee were accurate.
+
+David Fox, a veteran of the Korean war, opposes enhanced interrogation. When asked, in an interview I conducted, about his opinion on enhanced interrogation, David said, “It [enhanced interrogation] was true torture and our civilization needs to come up with something better than that to get true information... it is an issue that should not stand.” He believes there must be other methods that would be more effective in gaining actionable intelligence. Virginia DeSwarte, a retired military personnel who served two tours in Afghanistan, agrees. She argues that enhanced interrogation is a form of torture and yields no results. DeSwarte said the rest of the world looks to the U.S. for leadership on interrogation methods and their current ones are immoral. She claimed that, in most cases, the detainee will give any information to end the torture. This supports the Senate Intelligence Committee’s claim that enhanced interrogation produces “faulty intelligence.”
+
+Under President Barack Obama’s administration, waterboarding, an enhanced interrogation technique, was classified as torture. This was enacted through Executive Order 13491 in 2009. Obama spoke on the issues saying, “I believe that waterboarding was [is] torture and, whatever legal rationals were used, it was a mistake.”
+
+The findings of the investigation, by the Judge Advocate General’s Office, determined that Welshofer is responsible for the death of Mowhoush. According to the autopsy report, the cause of death was “asphyxia due to smothering and chest compression,” which occurred during the Sleeping Bag Method. “I helped save soldiers' lives. I'm 100 percent convinced of that. If I had done anything less than what I did, if one soldier more had died because I had done anything different, I find that even more reprehensible — even more unacceptable,” said Welshofer in an interview with CBS.
+
+
+
+
+
+
