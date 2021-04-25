@@ -10,13 +10,15 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Data Stories"
+    - text: "Work Samples"
       menu:
         - text: "Harris Campign Visits"
           href: posts/2021-04-13-my-new-post/index.html
         - text: "Complaints by State"
           href: posts/2021-04-13-my-second-post/index.html
-    - text: "Professional Resources"
+        - text: "Writing Sample"
+          href: Writing-Sample-1.html
+    - text: "Experience"
       menu:
         - text: "My Linkedin"
           href: https://www.linkedin.com/in/morgan-miller-7b3539199/
@@ -24,6 +26,7 @@ navbar:
           href: https://docs.google.com/document/d/1baQL-suOvWKByW07RcSnrX5hyjUR3q3bP-Y7Mkb7_AI/edit?usp=sharing
         - text: "Writing Sample"
           href: https://docs.google.com/document/d/1h_46v5pJfZtKFnvacxHkjXJkb7fpV7GpRrq6GQp0Kj0/edit?usp=sharing
+    - text: "Skills"
 output: distill::distill_article
 collections:
   posts:

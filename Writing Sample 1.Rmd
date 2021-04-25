@@ -1,0 +1,60 @@
+---
+title: "Mental Health in Education Amidst COVID-19"
+description: |
+  An article written for a final project my Sophomore year of college.
+author:
+  - name: Morgan Miller 
+    url: https://example.com/norajones
+    affiliation: The George Washington University
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+Avery Monacella, a senior at William Fremd High School in Palatine, IL, walked the halls of her school. She traveled to a long hallway. It was here where most students walked with excitement and nervous energy. All of this is history now. Looking back down the hallway, she saw no one. This is her new reality, virtual education in COVID-19.
+ 
+On Nov. 3, looking directly into the camera on her computer, she smiled. Followed by a long, deep breath, she prepared to tell her story. “I’m struggling,” she said.
+ 
+On Jan. 21, 2020, the U.S. confirmed its first reported case of COVID-19. As a result of the spreading virus, many schools around the country were forced to become virtual. The move to an online education environment has affected millions of students and their mental health.
+The Centers for Disease Control and Prevention (CDC) published a report in June stating that an increase in mental health issues were partially a result of the stay-at-home orders. The “pandemic has been associated with mental health challenges,” the CDC said. Students of all ages were forced to stay in their homes and take their classes virtually.
+ 
+The U.S National Library of Medicine National Institutes of Health (NLM) published a report about mental health during the COVID-19 pandemic. “The home confinement of children and adolescents is associated with uncertainty and anxiety which is attributable to disruption in their education,” the NLM report said.
+ 
+“There isn’t really a point,” Monacella said of virtual education. “I question the value of doing it.” There has been a dramatic switch from spending most of her days at school to none. For Monacella, this has brought more stress and anxiety into her life.
+ 
+The American Psychological Association (APA) found that “an estimated 1 in 5 U.S. children experience a mental, emotional… disorder… including anxiety, depression.” These statistics tracked mental health issues pre-COVID-19. The APA believes the numbers will continue to increase due to virtual education and COVID-19. “School routines are crucial for young people with mental health challenges as schools help them to cope and structure their behavior,” stated NLM.
+ 
+One student on-campus at George Washington University (GWU), sophomore Kariann Tan, believes being on campus isn’t enough to maintain her usual motivation for education. “Initially I coped sort of well,” Tan said. “I had a schedule, a routine. Over time, that eroded.” “Online learning does not give you the incentive to try because there is no consequence… there is always a loophole.”
+ 
+In 2020, The CDC found that “at least one adverse mental or behavioral health symptom was reported by more than one half of respondents who were aged 18–24 years (74.9%).” That is an all-time high. Mental health issues are causing a lack of motivation in students.
+ 
+ 
+The lack of routine and schedule in student’s lives is preventing mental health breaks. With all their work sitting in front of them on the computer, many feel pulled to keep working ahead. “During the weekends and off-days… I detach from my laptop,” Tan said. This detachment is in an attempt to return to a sense of normalcy pre-pandemic.
+ 
+Dr. Dennis Schell, a clinical psychologist and professor at GWU, believes students are missing the interactive aspect of education. “There is a certain magic when students feel like they can engage an instructor,” he said. Schell says that in a virtual education environment the engagement is missing. “When COVID-19 hit, the university decided at spring break to go fully online,” he explained. “We had to suddenly make the change… We did not think this would last as long [as it has].”
+ 
+In virtual education Schell said stress levels are “significantly higher than I've observed with live classes.” “For students... who never had a mental health disorder, the stress level is pushing the possibility.” While GWU offers mental health services to students, he has not heard of many taking advantage of them.
+ 
+Hailey Hardcastle, a mental health advocate, gave a TedTalk entitled, “Why You Should Take a Break: Prioritizing Mental Health in Schools”. Hardcastle outlines the necessity for mental health resources for students. “While not everyone has a diagnosed mental health illness like I do, absolutely everyone… [has] mental health,” she said. Amid a global pandemic many students are being forced to put mental health on the backburner. Tan said her schoolwork for virtual classes makes her feel “burdened and overwhelmed.” 
+ 
+The Kaiser Family Foundation (KFF) conducted research regarding the effects virtual school may have on students. “With long-term closures of schools and childcare centers, many parents are experiencing ongoing disruption to their daily routines,” they stated. These disruptions create the basis for mental health issues in students. The inability to have social interactions, partnered with the disruption in routine, are causing increased mental health issues. These issues are disrupting the ability of students to effectively learn in the virtual classroom.
+The United Nations’ (UN) published a policy brief on COVID-19 and education. It states that approximately 1.6 billion learners around the world have been affected by school closures. The brief states, “They… missed a stimulating and enriching environment, learning opportunities, social interaction…” In addition, the UN brief added, “This is likely to compromise their longer-term healthy development…”
+ 
+The disruptions in the student’s lives as a result of COVID-19 have limited the effectiveness of virtual education. “Many children did not benefit from the stable environment and the learning support needed to adapt to these new modes of instruction,” The UN said. Those without resources and digital literacy are left behind in virtual education.
+ 
+There is no answer for how long virtual education will last. Many educational institutions have announced they will continue online for the upcoming semester. For many, including Schell, mental health is at the forefront of their fears regarding virtual education. “My fear is, because of [the] darkness [of winter], students who have been fighting depression may see a slight increase,” Schell said. Students are in a vulnerable position and under an unexpected level of stress. Schell worries this will affect them in the long run. Mental health issues create fears for physical wellbeing, he said.
+ 
+“[If] that stress level stays high, … over time it affects the immune system. It’s chronic stress that none of us thought we would have to bear up under.”
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+
+
+
+
