@@ -11,10 +11,8 @@ output: distill::distill_article
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+
 ```
 
-
-
-
-
-
+![](images/Screen%20Shot%202021-04-29%20at%2010.54.45%20PM.png)

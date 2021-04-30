@@ -29,7 +29,7 @@ navbar:
         - text: "My Linkedin"
           href: https://www.linkedin.com/in/morgan-miller-7b3539199/
         - text: "My Resume"
-          href: https://docs.google.com/document/d/1baQL-suOvWKByW07RcSnrX5hyjUR3q3bP-Y7Mkb7_AI/edit?usp=sharing
+          href: resume.html
     - text: "Skills"
       href: skills.html
 output: distill::distill_article
