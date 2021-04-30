@@ -27,6 +27,7 @@ VO1
 In the last month, India’s cases have grown exponentially. Averaging around 150,000 cases per week, some countries have begun to implement travel bans. With a population of almost 1.4 billion, India stands as one of the most populated countries. Overpopulation plagues the country and could cause issues of exponential spreading of the virus. India’s increase in COVID-19 cases could create difficulties in slowing the spread of the global pandemic. 
 
 VO2
+
 Despite being pushed to the third most infected country, Brazil has continued to account for 13,482,023 cases and 353,137 deaths according to the World Health Organization. BBC News reports that last week, for the first time, Brazil had over 4,000 deaths within a 24 hour time span. Countries have begun implementing travel bans on Brazil. Meanwhile, the Brazilian government has yet to place travel restrictions on the country. 
 
 VO3

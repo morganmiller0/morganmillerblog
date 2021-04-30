@@ -1,7 +1,7 @@
 ---
 title: "The Nuclear Arms Debate"
 description: |
-  An analysis on the nuclear arm debate as written Scott Sagan and Kenneth Waltz.
+  An analysis on the nuclear arm debate as analyzed by Scott Sagan and Kenneth Waltz in, "The Spread of Nuclear Weapons: A Debate Renewed."
 author:
   - name: Morgan Miller 
     url: https://example.com/norajones
